@@ -11,3 +11,21 @@ header {
     justify-content: flex-end;
     align-items: center
 }
+
+form {
+    margin-right: 20px;
+}
+
+form > input {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 200px;
+    height: 25px;
+    background-color: white;
+    opacity: 0.8;
+    border: none;
+}
+
+form > input:focus {
+    background-color: white;
+}
